@@ -1,0 +1,34 @@
+The operations that take place on the server or in the browser ae as below:
+ 
+ browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+ server-->browser: HTML code
+ browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+ server-->browser: main.css
+ browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+ server-->browser: spa.js
+ 
+
+note about the browser:
+the browser starts executing the js code
+which requests JSON data from the server
+end note
+
+
+
+
+
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [{ {content: "cool", date: "2022-11-24T18:36:57.934Z" }, ...]
+
+note about the browser:
+the browser executes the event handler
+which renders the notes to the screen
+end note
+
+
+https://studies.cs.helsinki.fi/exampleapp/spa
+
+
+
+
+
