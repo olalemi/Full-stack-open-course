@@ -14,9 +14,6 @@ which requests JSON data from the server
 end note
 
 
-
-
-
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 server-->browser: [{ {content: "cool", date: "2022-11-24T18:36:57.934Z" }, ...]
 
