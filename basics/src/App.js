@@ -1,12 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const Hello = () => {
   return (
     <div>
-    <p>Hello worldddd</p>
-  </div>
-  );
+      <p>Hello world</p>
+    </div>
+  )
 }
+
+const App = () => {
+  return (
+    <div>
+      <h1>Greetings</h1>
+      <Hello />
+      <Hello />
+      <Hello />
+    </div>
+  )
+}
+
+
+
+
 
 export default App;
