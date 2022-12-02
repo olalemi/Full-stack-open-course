@@ -6,9 +6,9 @@ import Total from './Total';
 
 
 
-const App = ({name,age}) => {
-  // const name = 'Peter'
-  // const age = 10
+const App = () => {
+  const name = 'Peter'
+  const age = 10
 
   return (
     <div>
